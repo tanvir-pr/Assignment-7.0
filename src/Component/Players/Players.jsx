@@ -8,7 +8,7 @@ const Players = ({ handelSelectivePlayer }) => {
 
 
     useEffect(() =>{
-      fetch('players.json')
+      fetch('/players.json')
         .then(res => res.json())
         .then(data => setPlayers(data.players))
       

@@ -22,7 +22,7 @@ const Footer = () => {
 
             <footer className='bg-black pt-44 mt-60 '>
                 <div className='flex justify-center items-center '>
-                    <img  src="../../assets/logo-footer.png" alt="" />
+                    <img  src="../../assetss/logo-footer.png" alt="" />
                 </div>
                 <div className="footer bg-black text-white p-10 flex justify-between flex-row gap-3">
                 <nav>
