@@ -1,11 +1,14 @@
 import React from 'react';
 import Player from '../Player/Player';
+import './Selected.css';
 
-const Selected = ({ selectiveProducts,handleDelate }) => {
+const Selected = ({ selectiveProducts,handleDelate, handelSelectivePlayer,handleIsActiveState}) => {
     // console.log(handleDelate)
     return (
         <div>
-          
+            <div>
+            <div className='text-2xl font-bold pb-5'>Selective Players({selectiveProducts.length}/6)</div>
+          </div>
             {
                 selectiveProducts.map((player) => (
                     
@@ -20,11 +23,16 @@ const Selected = ({ selectiveProducts,handleDelate }) => {
                         </div>
                        <button onClick={() => handleDelate(player.name)}><i class="fa-solid fa-trash"></i></button>
                             
+                        
+                       
                             
                 </div>
 
                 ) )
-        }
+            }
+             <div>
+         <button onClick={()=> handleIsActiveState("Available")} className="border-2 mb-10 bg-amber-400 border-black p-2 rounded-md">Add More Player</button>
+                        </div>
         </div>
     );
 };

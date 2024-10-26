@@ -1,0 +1,12 @@
+.active{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px;
+    color: aqua;
+}
+border-2 mb-10 bg-amber-400 border-black p-2 rounded-md
+.btn{
+    padding: 15px;
+    cursor: pointer;
+}

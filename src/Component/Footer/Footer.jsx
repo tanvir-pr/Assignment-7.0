@@ -1,26 +1,35 @@
 import React from 'react';
+import backgroundImage from "../../assets/bg-shadow.png";
 
 const Footer = () => {
     return (
         <div>
 
-            <div className='border-2 flex flex-col justify-center items-center mb-10 bg-amber-400 border-black p-2 mx-20 rounded-md py-12'>
+            <div className='relative top-48 border-2 flex flex-col justify-center bg-white items-center  border-black p-2 mx-20 rounded-md py-16'
+               style={{
+                backgroundImage: `url(${backgroundImage})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                height: "",
+                width: "",
+                }}
+            >
                 <h2 className='text-2xl font-semibold'>Subscribe to our Newsletter</h2>
                 <h4 className='from-neutral-400 my-2'>Get the latest updates and news right in your inbox!</h4>
                 <div className='flex flex-row gap-3'>
                     <button><input
                     type=""
                     placeholder="Enter your email"
-                    className="" /></button>
+                    className="border-2 border-gray-300 rounded-md p-1" /></button>
                     <button>Subscribe</button>
                 </div>
-       </div>
+            </div>
 
 
 
 
 
-            <footer className='bg-black pt-44 mt-60 '>
+            <footer className='bg-black mt-14 pt-36 '>
                 <div className='flex justify-center items-center '>
                     <img  src="../../assetss/logo-footer.png" alt="" />
                 </div>
@@ -59,8 +68,13 @@ const Footer = () => {
 
     <button className="btn btn-accent">Subscribe</button>
     
-  </nav>
-  </div>
+                    </nav>
+                   
+                </div>
+                <div className='flex flex-col pb-5 text-center items-center'>
+                <hr width="1200px;" color="red" size="20" />
+                <h4 className='text-white'>@2024 Your Company All Rights Reserved.</h4>
+                </div>
             </footer> 
             
 

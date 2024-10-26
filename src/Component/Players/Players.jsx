@@ -14,14 +14,20 @@ const Players = ({ handelSelectivePlayer }) => {
       
     }, [])
     return (
-        <div className='players w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4'>
         
-            {
-                players.map(player => <Player
-                    handelSelectivePlayer={handelSelectivePlayer}   key={player.name}
-                player={player}
-                ></Player>)
-            }
+        <div>
+            <div>
+            <div className='text-2xl font-bold pb-5'>Available Players</div>
+            </div>
+            <div className='players w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4'>
+          
+          {
+              players.map(player => <Player
+                  handelSelectivePlayer={handelSelectivePlayer}   key={player.name}
+              player={player}
+              ></Player>)
+          }
+      </div>
         </div>
     );
 };
