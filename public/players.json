@@ -1,0 +1,95 @@
+{
+    "players": [
+      {
+        "name": "Virat Kohli",
+        "country": "India",
+        "rating": 92,
+        "price": 20000,
+        "status": "Active",
+        "type": "Batsman",
+        "picture": "https://media.gettyimages.com/id/1716746662/photo/thiruvananthapuram-india-virat-kohli-of-india-poses-for-a-portrait-ahead-of-the-icc-mens.jpg?s=612x612&w=gi&k=20&c=m4rWSeT936e6rQ-NK6wTmdKxJG3coek76IWta1FiXS4="
+      },
+      {
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "rating": 88,
+        "price": 30000,
+        "status": "Active",
+        "type": "Batsman",
+        "picture": "https://media.gettyimages.com/id/1711506563/photo/thiruvananthapuram-india-kane-williamson-of-new-zealand-poses-for-a-portrait-ahead-of-the-icc.jpg?s=612x612&w=gi&k=20&c=IuYS13Y4rFVDMl2Rz9x-jodeLR7sYu7NhfxA29dQF9o="
+      },
+      {
+        "name": "Steve Smith",
+        "country": "Australia",
+        "rating": 90,
+        "price": 60000,
+        "status": "Active",
+        "type": "Batsman",
+        "picture": "https://media.gettyimages.com/id/1713069278/photo/hyderabad-india-steve-smith-of-australia-poses-for-a-portrait-ahead-of-the-icc-mens-cricket.jpg?s=612x612&w=gi&k=20&c=rmOIY-sA38V0tQgCRYcnlfC0AKUJ00yQZkJ6cwe2nbw="
+      },
+      {
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "rating": 89,
+        "price": 70000,
+        "status": "Active",
+        "type": "Batsman",
+        "picture": "https://timesofislamabad.com/digital_images/large/2023-09-07/good-news-for-pakistani-fans-of-skipper-babar-azam-1694089086-8893.jpeg"
+      },
+      {
+        "name": "Ben Stokes",
+        "country": "England",
+        "rating": 87,
+        "price": 90000,
+        "status": "Active",
+        "type": "All-Rounder",
+        "picture": "https://pbs.twimg.com/media/FgedktVXgAIGgyP?format=jpg&name=4096x4096"
+      },
+      {
+        "name": "Jasprit Bumrah",
+        "country": "India",
+        "rating": 86,
+        "price": 60000,
+        "status": "Active",
+        "type": "Bowler",
+        "picture": "https://i.pinimg.com/564x/d9/ef/4b/d9ef4b4e63d5fcc1d92773c93c033b2e.jpg"
+      },
+      {
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "rating": 85,
+        "price": 45000,
+        "status": "Active",
+        "type": "Bowler",
+        "picture": "https://c8.alamy.com/comp/TYHDBD/new-zealands-trent-boult-during-the-icc-cricket-world-cup-group-stage-match-at-edgbaston-birmingham-TYHDBD.jpg"
+      },
+      {
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "rating": 84,
+        "price": 69000,
+        "status": "Active",
+        "type": "All-Rounder",
+        "picture": "https://media.gettyimages.com/id/1711546167/photo/bangladesh-portraits-icc-mens-cricket-world-cup-india-2023.jpg?s=594x594&w=gi&k=20&c=Dqw005-5YgNkKWjCP9ZbDcSdPkzZPvRXcSrUaHHLeUk="
+      },
+      {
+        "name": "David Warner",
+        "country": "Australia",
+        "rating": 82,
+        "price": 56000,
+        "status": "Active",
+        "type": "Batsman",
+        "picture": "https://media.gettyimages.com/id/1160586818/photo/manchester-england-david-warner-of-australia-celebrates-his-century-during-the-group-stage.jpg?s=612x612&w=gi&k=20&c=S8Q7bcRuaGRnh5V_q2r7_fnoZ-LcwzpGsG_FK8SAAZU="
+      },
+      {
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "rating": 88,
+        "price": 34000,
+        "status": "Active",
+        "type": "Bowler",
+        "picture": "https://media.gettyimages.com/id/1364185891/photo/brisbane-australia-rashid-khan-of-the-strikers-celebrates-taking-the-wicket-of-mujeeb-ur.jpg?s=612x612&w=gi&k=20&c=fXmc_MR5KypkYsVQg4btjjf3QdO6idUyFwcouRqxerI="
+      }
+    ]
+  }
+  
